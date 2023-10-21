@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+section a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-image {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.circular-image img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.details {
+    display: none;
+    text-align: left;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.expand-button {
+    background-color: transparent;
+    color: #0073e6;
+    border: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.expand-button:hover {
+    background-color: transparent;
+}
+
+.research-entry, .project-entry, .education-entry {
+    margin-bottom: 50px;
+}
+
+.about-more {
+    display: block;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.description p {
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.about-more a {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
